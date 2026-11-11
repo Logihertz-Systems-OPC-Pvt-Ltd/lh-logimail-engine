@@ -1,0 +1,78 @@
+================================================================================
+Logihertz Systems (OPC) Private Limited - Enterprise Open-Source Notice
+================================================================================
+Product:                   lh-logimail-engine (CLI: bin/lh-mail)
+Version:                   0.1.0
+Organization:              Logihertz Systems (OPC) Private Limited
+GitHub Organization:       https://github.com/Logihertz-Systems-OPC-Pvt-Ltd
+Primary Account Identity:  logihertzsystems <ops@logihertz.com>
+Creator, Founder & Director: Sameer Tawade (Whole & Sole Developer and Executive Director)
+Website:                   https://logihertz.com/
+Contact:                   ops@logihertz.com
+Copyright:                 Copyright 2026 Logihertz Systems (OPC) Private Limited. All rights reserved.
+================================================================================
+
+SECTION 1: APACHE LICENSE 2.0 SECTION 4 GRANT & REDISTRIBUTION NOTICE
+--------------------------------------------------------------------------------
+This product includes software developed by Logihertz Systems (OPC) Private
+Limited (https://logihertz.com/).
+
+Licensed under the Apache License, Version 2.0 (the "License"); you may not use
+this file except in compliance with the License. You may obtain a copy of the
+License at:
+
+    http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing, software distributed
+under the License is distributed on an "AS IS" BASIS, WITHOUT WARRANTIES OR
+CONDITIONS OF ANY KIND, either express or implied. See the License for the
+specific language governing permissions and limitations under the License.
+
+Pursuant to Section 4(d) of the Apache License, Version 2.0, you must retain
+this NOTICE file in all copies, substantial portions, or derivative works of
+the software that you distribute, alongside the accompanying LICENSE file.
+
+SECTION 2: TRADEMARK & BRAND RESERVATION (APACHE-2.0 SECTION 6)
+--------------------------------------------------------------------------------
+In accordance with Section 6 of the Apache License, Version 2.0, this License
+does not grant permission to use the trade names, trademarks, service marks, or
+product names of the Licensor, including but not limited to "Logihertz",
+"Logihertz Systems", "Logihertz Systems (OPC) Private Limited", or "lh-logimail-engine",
+except as required for reasonable and customary use in describing the origin of
+the Work and reproducing the content of this NOTICE file.
+
+SECTION 3: ARCHITECTURAL ATTRIBUTION & ZERO-DEPENDENCY RUNTIME
+--------------------------------------------------------------------------------
+lh-logimail-engine is intentionally architected with 100% zero external runtime
+dependencies. It operates exclusively upon native PHP 8.2+ core functionality and
+standard system extensions:
+
+1. PHP Standard Library (SPL)
+   - License: PHP License v3.01
+   - Copyright (c) 1999-2026 The PHP Group
+
+2. ext-openssl (OpenSSL Cryptographic Extension)
+   - Cryptographic primitives for RSA-SHA256 DKIM signing & TLS v1.2/v1.3 negotiation
+   - Underlying OpenSSL library: Apache License 2.0 / OpenSSL License
+
+3. ext-json (JSON Serialization & Parsing)
+   - License: PHP License v3.01
+   - Canonical JSON export and configuration auditing
+
+SECTION 4: STANDARDS & SPECIFICATIONS ACKNOWLEDGMENT
+--------------------------------------------------------------------------------
+This software incorporates logic and rules adhering strictly to official open
+industry standards and specifications:
+
+1. RFC 5322 - Internet Message Format (IETF)
+2. RFC 6376 - DomainKeys Identified Mail (DKIM) Signatures (IETF)
+3. RFC 2045 / RFC 2046 - Multipurpose Internet Mail Extensions (MIME) (IETF)
+4. RFC 8058 - Signaling One-Click Functionality for List-Unsubscribe (IETF)
+5. RFC 7208 - Sender Policy Framework (SPF) for Authorizing Use of Domains in Email
+6. RFC 7489 - Domain-based Message Authentication, Reporting, and Conformance (DMARC)
+7. OASIS Static Analysis Results Interchange Format (SARIF) v2.1.0
+8. MITRE Common Weakness Enumeration (CWE) List
+
+================================================================================
+END OF NOTICE
+================================================================================

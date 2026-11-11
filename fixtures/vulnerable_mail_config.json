@@ -1,0 +1,29 @@
+{
+  "host": "open-relay.untrusted.local",
+  "port": 25,
+  "tls_mode": "none",
+  "allow_plaintext": true,
+  "verify_peer": false,
+  "socket_timeout_seconds": 120,
+  "max_messages_per_connection": 1000,
+  "max_message_size_bytes": 52428800,
+  "username": "admin",
+  "password": "SuperSecretPlainTextPassword123!",
+  "strict_header_sanitization": false,
+  "validate_reply_to": false,
+  "validate_return_path": false,
+  "dkim_enabled": false,
+  "dkim_domain": "",
+  "dkim_selector": "",
+  "dkim_key_bits": 1024,
+  "dkim_hash_algorithm": "rsa-sha1",
+  "signed_headers": [
+    "from"
+  ],
+  "spf_record": "v=spf1 +all",
+  "dmarc_record": "v=DMARC1; p=none",
+  "bounce_alignment": false,
+  "envelope_alignment": false,
+  "require_one_click_unsubscribe": false,
+  "list_unsubscribe_post": false
+}

@@ -1,0 +1,16 @@
+From: "Logihertz Operations" <ops@logihertz.com>
+To: "Engineering Team" <team@logihertz.com>
+Subject: Logihertz Mail Infrastructure Audit Verification
+Date: Wed, 11 Nov 2026 10:00:00 +0000
+Message-ID: <probe-20261111-001@logihertz.com>
+MIME-Version: 1.0
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+Hello Team,
+
+This is a clean RFC 5322 sample message used for zero-dependency
+cryptographic DKIM signing and canonicalization verification.
+
+Best regards,
+Logihertz Systems Operations Team

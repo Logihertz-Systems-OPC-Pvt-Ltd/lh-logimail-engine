@@ -1,0 +1,38 @@
+{
+  "name": "logihertzsystems/lh-logimail-engine",
+  "description": "Enterprise zero-dependency RFC 6376 DKIM signer, CRLF-safe MIME builder, persistent SMTP multiplexer, and mail gateway posture auditor.",
+  "type": "library",
+  "license": "Apache-2.0",
+  "authors": [
+    {
+      "name": "logihertzsystems",
+      "email": "ops@logihertz.com"
+    },
+    {
+      "name": "Sameer Tawade (Creator, Founder, Director & Sole Developer)",
+      "email": "ops@logihertz.com"
+    }
+  ],
+  "homepage": "https://logihertz.com/",
+  "support": {
+    "email": "ops@logihertz.com",
+    "source": "https://github.com/Logihertz-Systems-OPC-Pvt-Ltd/lh-logimail-engine"
+  },
+  "require": {
+    "php": "^8.2",
+    "ext-openssl": "*",
+    "ext-json": "*",
+    "ext-spl": "*"
+  },
+  "autoload": {
+    "psr-4": {
+      "Logihertz\\LogiMail\\": "src/"
+    }
+  },
+  "bin": [
+    "bin/lh-mail"
+  ],
+  "config": {
+    "sort-packages": true
+  }
+}

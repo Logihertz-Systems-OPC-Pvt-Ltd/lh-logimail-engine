@@ -1,0 +1,21 @@
+#!/usr/bin/env php
+<?php
+
+declare(strict_types=1);
+
+// ==============================================================================
+// Product:       lh-logimail-engine (bin/lh-mail)
+// Module:        bin/lh-mail
+// Role:          CLI Entrypoint Executable
+// Organization:  Logihertz Systems (OPC) Private Limited (logihertzsystems)
+// Creator:       Sameer Tawade (Creator, Founder, Director & Sole Developer)
+// Contact:       ops@logihertz.com | https://logihertz.com/
+// License:       Apache License 2.0 (SPDX-License-Identifier: Apache-2.0)
+// ==============================================================================
+
+require_once __DIR__ . '/../src/Autoloader.php';
+
+\Logihertz\LogiMail\Autoloader::register();
+
+$app = new \Logihertz\LogiMail\CliApplication();
+exit($app->run($argv));

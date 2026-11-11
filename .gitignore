@@ -1,0 +1,28 @@
+# Composer dependencies & vendor directory (if used during dev)
+/vendor/
+composer.lock
+
+# Build & Release Artifacts
+/dist/
+*.tar.gz
+*.zip
+*.phar
+
+# Environment & Credentials
+.env
+*.pem
+!fixtures/*.pem
+*.key
+*.secret
+
+# Test artifacts & cache
+.phpunit.result.cache
+/coverage/
+
+# IDE & OS files
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+*~
