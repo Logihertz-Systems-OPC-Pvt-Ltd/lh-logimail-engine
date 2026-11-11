@@ -2,13 +2,14 @@
 Logihertz Systems (OPC) Private Limited - Enterprise Open-Source Notice
 ================================================================================
 Product:                   lh-logimail-engine (CLI: bin/lh-mail)
+Description:               Zero-Dependency PHP 8.2+ RFC 6376 DKIM Signer, RFC 5322 MIME Builder & 10-Rule Mail Posture Auditor
 Version:                   0.1.0
 Organization:              Logihertz Systems (OPC) Private Limited
 GitHub Organization:       https://github.com/Logihertz-Systems-OPC-Pvt-Ltd
 Primary Account Identity:  logihertzsystems <ops@logihertz.com>
 Creator, Founder & Director: Sameer Tawade (Whole & Sole Developer and Executive Director)
 Website:                   https://logihertz.com/
-Contact:                   ops@logihertz.com
+Contact:                   ops@logihertz.com | security@logihertz.com
 Copyright:                 Copyright 2026 Logihertz Systems (OPC) Private Limited. All rights reserved.
 ================================================================================
 

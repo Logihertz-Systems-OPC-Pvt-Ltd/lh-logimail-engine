@@ -163,12 +163,16 @@ find src bin tests -type f -exec php -l {} +
 
 ---
 
-## Enterprise Governance & Notice
+## Enterprise Governance & Community
 
 `lh-logimail-engine` is an open-source product developed by:
 
 - **Organization**: Logihertz Systems (OPC) Private Limited (`logihertzsystems`)
 - **Website**: [https://logihertz.com/](https://logihertz.com/)
-- **Contact & Support**: [ops@logihertz.com](mailto:ops@logihertz.com)
+- **Contact & Support**: [ops@logihertz.com](mailto:ops@logihertz.com) | [security@logihertz.com](mailto:security@logihertz.com)
 - **Creator, Founder, Director & Sole Developer**: **Sameer Tawade** (`ops@logihertz.com`)
 - **License**: Apache License 2.0 (SPDX-License-Identifier: `Apache-2.0`). See [LICENSE](LICENSE) and [NOTICE](NOTICE) for complete legal terms.
+- **Contributing**: Please review [CONTRIBUTING.md](CONTRIBUTING.md) for architectural mandates and verification standards.
+- **Changelog**: Release history and version updates are tracked in [CHANGELOG.md](CHANGELOG.md).
+- **Code of Conduct**: Community standards are defined in [CODE_OF_CONDUCT.md](CODE_OF_CONDUCT.md).
+- **Security Policy**: Vulnerability reporting protocols are documented in [SECURITY.md](SECURITY.md).
