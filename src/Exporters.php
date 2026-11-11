@@ -19,10 +19,10 @@ namespace Logihertz\LogiMail;
  */
 class Exporters
 {
-    public const string TOOL_NAME = 'lh-logimail-engine';
-    public const string TOOL_VERSION = '0.1.0';
-    public const string ORGANIZATION = 'Logihertz Systems (OPC) Private Limited';
-    public const string REPOSITORY_URL = 'https://github.com/Logihertz-Systems-OPC-Pvt-Ltd/lh-logimail-engine';
+    public const TOOL_NAME = 'lh-logimail-engine';
+    public const TOOL_VERSION = '0.1.0';
+    public const ORGANIZATION = 'Logihertz Systems (OPC) Private Limited';
+    public const REPOSITORY_URL = 'https://github.com/Logihertz-Systems-OPC-Pvt-Ltd/lh-logimail-engine';
 
     /**
      * Render an ANSI / ASCII colored terminal report table.

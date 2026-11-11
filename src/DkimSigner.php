@@ -23,7 +23,7 @@ use RuntimeException;
  */
 class DkimSigner
 {
-    public const array DEFAULT_HEADERS_TO_SIGN = [
+    public const DEFAULT_HEADERS_TO_SIGN = [
         'from',
         'to',
         'subject',

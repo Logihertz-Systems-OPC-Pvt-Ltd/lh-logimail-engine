@@ -19,7 +19,7 @@ namespace Logihertz\LogiMail;
  */
 final class Autoloader
 {
-    private const string PREFIX = 'Logihertz\\LogiMail\\';
+    private const PREFIX = 'Logihertz\\LogiMail\\';
     private static bool $registered = false;
 
     /**

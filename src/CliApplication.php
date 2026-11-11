@@ -21,9 +21,9 @@ use Throwable;
  */
 class CliApplication
 {
-    public const int EXIT_OK = 0;
-    public const int EXIT_POLICY_VIOLATION = 1;
-    public const int EXIT_USAGE_ERROR = 2;
+    public const EXIT_OK = 0;
+    public const EXIT_POLICY_VIOLATION = 1;
+    public const EXIT_USAGE_ERROR = 2;
 
     /**
      * Run the application with command line arguments.

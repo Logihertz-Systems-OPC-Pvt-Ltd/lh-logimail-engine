@@ -96,7 +96,7 @@ class AuditResult
 class MailAuditor
 {
     /** @var array<string, array{severity: string, cwe: string, title: string, weight: int}> */
-    public const array RULE_METADATA = [
+    public const RULE_METADATA = [
         'LH-MAIL-001' => [
             'severity' => 'CRITICAL',
             'cwe' => 'CWE-319',
