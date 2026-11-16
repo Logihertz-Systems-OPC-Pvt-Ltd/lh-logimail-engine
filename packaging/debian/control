@@ -1,0 +1,9 @@
+Package: lh-logimail-engine
+Version: 0.1.0
+Section: utils
+Priority: optional
+Architecture: all
+Maintainer: Sameer Tawade <ops@logihertz.com>
+Homepage: https://www.logihertz.com
+Description: lh-mail - RFC 6376 Canonicalization & RSA-SHA256 DKIM Signature
+ Zero-dependency PHP 8.2+ transactional mail dispatch engine with RFC 6376 relaxed/relaxed DKIM RSA-2048 signing, RFC 5322 MIME CRLF injection protection, STARTTLS socket pooling, and 10-rule mail posture auditor.
